@@ -115,6 +115,6 @@ app.get('/usuario/buscar', (req, res) => {
     });
 });
 
-app.listen(8080, () => {
-    console.log(`Servidor rodando na porta ${8080}`);
+app.listen(80, () => {
+    console.log(`Servidor rodando na porta ${80}`);
 });
