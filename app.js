@@ -115,6 +115,8 @@ app.get('/usuario/buscar', (req, res) => {
     });
 });
 
-app.listen(80, () => {
-    console.log(`Servidor rodando na porta ${80}`);
+const PORT = process.env.PORT || 8080;
+app.listen(PORT, err => {
+    if(err) throw err;
+    console.log(`Servidor rodando na porta ${PORT}`);
 });
