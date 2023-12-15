@@ -5,7 +5,7 @@
 const express = require('express');
 const moment = require('moment');
 const {v4: uuidv4} = require('uuid');
-const Usuario = require('./src/models/Usuario');
+const Usuario = require('./models/Usuario');
 
 const app = express();
 
